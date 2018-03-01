@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-01T21:48:45.403Z</updated>
+  <updated>2018-03-01T22:24:45.411Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://yoursite.com/2018/03/02/%E8%AE%BA%E6%96%87/"/>
     <id>http://yoursite.com/2018/03/02/论文/</id>
     <published>2018-03-01T19:05:32.000Z</published>
-    <updated>2018-03-01T21:48:45.403Z</updated>
+    <updated>2018-03-01T22:24:45.411Z</updated>
     
-    <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="//music.163.com/outchain/player?type=0&id=649100853&auto=1&height=430"></iframe><h2 id="选题一：神经网络套利策略-太麻烦）"><a href="#选题一：神经网络套利策略-太麻烦）" class="headerlink" title="选题一：神经网络套利策略(太麻烦）"></a>选题一：神经网络套利策略(太麻烦）</h2><p><strong>1.神经网络概谈</strong><a href="https://www.mql5.com/zh/articles/497" target="_blank" rel="noopener">参考</a><br><img src="https://c.mql5.com/2/4/neuron.png" alt="图 1\. 人工神经元模型" title="图 1\. 人工神经元模型">传递函数 ∑和净输入<strong>NET</strong>。学习能力是其中最重要的一个。学习过程实际是改变<a href="https://c.mql5.com/2/4/w_n_cropped.png" title="权重" target="_blank" rel="noopener">权重</a>，之后净输入被激活函数转换为输出。<img src="https://c.mql5.com/2/4/neuronet__1.png" alt="图 2\. 多层神经网络模型" title="图 2\. 多层神经网络模型">这是一个多层神经网络的形式。它包含：</p><ul><li><strong>输入层</strong>，用于将数据分配到网络，并且不执行任何计算。此层的输出将信号传递到下一层（隐藏层或输出层）的输入；</li><li><strong>输出层</strong>，通常包含一个神经元（某些情况下不止一个），生成整个神经网络的输出。此信号是 EA 将来的控制逻辑的基础；</li><li><strong>隐藏层</strong>，是标准神经元层，将信号从输入层传递到输出层。其输入是上一层的输出，而其输出用作下一层的输入。<br>某些神经网络可以具有更多的隐藏层。</li></ul><hr><h2 id="选题二：α套利与我国中小板上市公司"><a href="#选题二：α套利与我国中小板上市公司" class="headerlink" title="选题二：α套利与我国中小板上市公司"></a>选题二：<a href="http://kns.cnki.net/KXReader/Detail?dbcode=CJFD&amp;filename=GZDX201701010&amp;uid=WEEvREcwSlJHSldRa1FhcEE0RVZxei9MWEh4SHByVUszcU4xK0tPaWl3cz0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4ggI8Fm4gTkoUKaID8j8gFw!!" target="_blank" rel="noopener">α套利</a>与我国中小板上市公司</h2><hr>]]></content>
+    <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="选题一：神经网络套利策略-太麻烦）"><a href="#选题一：神经网络套利策略-太麻烦）" class="headerlink" title="选题一：神经网络套利策略(太麻烦）"></a>选题一：神经网络套利策略(太麻烦）</h2><p><strong>1.神经网络概谈</strong><a href="https://www.mql5.com/zh/articles/497" target="_blank" rel="noopener">参考</a><br><img src="https://c.mql5.com/2/4/neuron.png" alt="图 1\. 人工神经元模型" title="图 1\. 人工神经元模型">传递函数 ∑和净输入<strong>NET</strong>。学习能力是其中最重要的一个。学习过程实际是改变<a href="https://c.mql5.com/2/4/w_n_cropped.png" title="权重" target="_blank" rel="noopener">权重</a>，之后净输入被激活函数转换为输出。<img src="https://c.mql5.com/2/4/neuronet__1.png" alt="图 2\. 多层神经网络模型" title="图 2\. 多层神经网络模型">这是一个多层神经网络的形式。它包含：</p><ul><li><strong>输入层</strong>，用于将数据分配到网络，并且不执行任何计算。此层的输出将信号传递到下一层（隐藏层或输出层）的输入；</li><li><strong>输出层</strong>，通常包含一个神经元（某些情况下不止一个），生成整个神经网络的输出。此信号是 EA 将来的控制逻辑的基础；</li><li><strong>隐藏层</strong>，是标准神经元层，将信号从输入层传递到输出层。其输入是上一层的输出，而其输出用作下一层的输入。<br>某些神经网络可以具有更多的隐藏层。</li></ul><hr><h2 id="选题二：α套利与我国中小板上市公司"><a href="#选题二：α套利与我国中小板上市公司" class="headerlink" title="选题二：α套利与我国中小板上市公司"></a>选题二：<a href="http://kns.cnki.net/KXReader/Detail?dbcode=CJFD&amp;filename=GZDX201701010&amp;uid=WEEvREcwSlJHSldRa1FhcEE0RVZxei9MWEh4SHByVUszcU4xK0tPaWl3cz0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4ggI8Fm4gTkoUKaID8j8gFw!!" target="_blank" rel="noopener">α套利</a>与我国中小板上市公司</h2><hr>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;script src=&quot;\assets\js\APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;4
+        &lt;script src=&quot;\assets\js\APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;选题一：神经网络套利策略-太麻烦）&quot;&gt;&lt;a href=&quot;#选题一：神经网络套利策略-太麻烦）&quot; class=&quot;headerlink&quot; title=&quot;选题一：神经网络
       
     
     </summary>
