@@ -7,22 +7,18 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="论文方向 选题一：神经网络套利策略(太麻烦）1.神经网络概谈                                        参考传递函数  和净输入     。学习能力是其中最重要的一个。学习过程实际是改变权重 。，之后净输入被激活函数转换为输出。   这是一个多层神经网络的形式。它包含：  输入层，用于将数据分配到网络，并且不执行任何计算。此层的输出将信号传递到下一层（隐藏层或">
+  <meta name="description" content="论文方向 选题一：神经网络套利策略(太麻烦）1.神经网络概谈参考传递函数 ∑和净输入NET。学习能力是其中最重要的一个。学习过程实际是改变权重，之后净输入被激活函数转换为输出。这是一个多层神经网络的形式。它包含：  输入层，用于将数据分配到网络，并且不执行任何计算。此层的输出将信号传递到下一层（隐藏层或输出层）的输入； 输出层，通常包含一个神经元（某些情况下不止一个），生成整个神经网络的输出。此">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://yoursite.com/2018/03/02/论文/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="论文方向 选题一：神经网络套利策略(太麻烦）1.神经网络概谈                                        参考传递函数  和净输入     。学习能力是其中最重要的一个。学习过程实际是改变权重 。，之后净输入被激活函数转换为输出。   这是一个多层神经网络的形式。它包含：  输入层，用于将数据分配到网络，并且不执行任何计算。此层的输出将信号传递到下一层（隐藏层或">
+<meta property="og:description" content="论文方向 选题一：神经网络套利策略(太麻烦）1.神经网络概谈参考传递函数 ∑和净输入NET。学习能力是其中最重要的一个。学习过程实际是改变权重，之后净输入被激活函数转换为输出。这是一个多层神经网络的形式。它包含：  输入层，用于将数据分配到网络，并且不执行任何计算。此层的输出将信号传递到下一层（隐藏层或输出层）的输入； 输出层，通常包含一个神经元（某些情况下不止一个），生成整个神经网络的输出。此">
 <meta property="og:image" content="https://c.mql5.com/2/4/neuron.png">
-<meta property="og:image" content="https://c.mql5.com/2/4/summ_cropped.png">
-<meta property="og:image" content="https://c.mql5.com/2/4/net_cropped.png">
-<meta property="og:image" content="https://c.mql5.com/2/4/w_n_cropped.png">
-<meta property="og:image" content="https://c.mql5.com/2/4/neuro1.png">
 <meta property="og:image" content="https://c.mql5.com/2/4/neuronet__1.png">
-<meta property="og:updated_time" content="2018-03-01T17:15:53.794Z">
+<meta property="og:updated_time" content="2018-03-01T17:48:56.895Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="论文方向 选题一：神经网络套利策略(太麻烦）1.神经网络概谈                                        参考传递函数  和净输入     。学习能力是其中最重要的一个。学习过程实际是改变权重 。，之后净输入被激活函数转换为输出。   这是一个多层神经网络的形式。它包含：  输入层，用于将数据分配到网络，并且不执行任何计算。此层的输出将信号传递到下一层（隐藏层或">
+<meta name="twitter:description" content="论文方向 选题一：神经网络套利策略(太麻烦）1.神经网络概谈参考传递函数 ∑和净输入NET。学习能力是其中最重要的一个。学习过程实际是改变权重，之后净输入被激活函数转换为输出。这是一个多层神经网络的形式。它包含：  输入层，用于将数据分配到网络，并且不执行任何计算。此层的输出将信号传递到下一层（隐藏层或输出层）的输入； 输出层，通常包含一个神经元（某些情况下不止一个），生成整个神经网络的输出。此">
 <meta name="twitter:image" content="https://c.mql5.com/2/4/neuron.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -59,9 +55,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSSフィード"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="検索"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -84,10 +80,7 @@
       
         <hr>
 <h1 id="论文方向"><a href="#论文方向" class="headerlink" title="论文方向"></a>论文方向</h1><hr>
-<h2 id="选题一：神经网络套利策略-太麻烦）"><a href="#选题一：神经网络套利策略-太麻烦）" class="headerlink" title="选题一：神经网络套利策略(太麻烦）"></a>选题一：神经网络套利策略(太麻烦）</h2><p><strong>1.神经网络概谈</strong>                                        <a href="https://www.mql5.com/zh/articles/497" target="_blank" rel="noopener">参考</a><br><img src="https://c.mql5.com/2/4/neuron.png" alt="图 1\. 人工神经元模型" title="图 1\. 人工神经元模型">传递函数 <img src="https://c.mql5.com/2/4/summ_cropped.png" alt="传递函数" title="传递函数"> 和净输入 <img src="https://c.mql5.com/2/4/net_cropped.png" alt="神经元的净输入" title="神经元的净输入">    。学习能力是其中最重要的一个。学习过程实际是改变权重 <img src="https://c.mql5.com/2/4/w_n_cropped.png" alt="权重" title="权重">。<img src="https://c.mql5.com/2/4/neuro1.png" alt="神经元净输入的计算" title="神经元净输入的计算">，之后净输入被激活函数转换为输出。</p>
-<blockquote>
-</blockquote>
-<p><img src="https://c.mql5.com/2/4/neuronet__1.png" alt="图 2\. 多层神经网络模型" title="图 2\. 多层神经网络模型"><br>这是一个多层神经网络的形式。它包含：</p>
+<h2 id="选题一：神经网络套利策略-太麻烦）"><a href="#选题一：神经网络套利策略-太麻烦）" class="headerlink" title="选题一：神经网络套利策略(太麻烦）"></a>选题一：神经网络套利策略(太麻烦）</h2><p><strong>1.神经网络概谈</strong><a href="https://www.mql5.com/zh/articles/497" target="_blank" rel="noopener">参考</a><br><img src="https://c.mql5.com/2/4/neuron.png" alt="图 1\. 人工神经元模型" title="图 1\. 人工神经元模型">传递函数 ∑和净输入<strong>NET</strong>。学习能力是其中最重要的一个。学习过程实际是改变<a href="https://c.mql5.com/2/4/w_n_cropped.png" title="权重" target="_blank" rel="noopener">权重</a>，之后净输入被激活函数转换为输出。<img src="https://c.mql5.com/2/4/neuronet__1.png" alt="图 2\. 多层神经网络模型" title="图 2\. 多层神经网络模型">这是一个多层神经网络的形式。它包含：</p>
 <ul>
 <li><strong>输入层</strong>，用于将数据分配到网络，并且不执行任何计算。此层的输出将信号传递到下一层（隐藏层或输出层）的输入；</li>
 <li><strong>输出层</strong>，通常包含一个神经元（某些情况下不止一个），生成整个神经网络的输出。此信号是 EA 将来的控制逻辑的基础；</li>
@@ -99,7 +92,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/02/论文/" data-id="cje8ruoq40002moulo5ybvx45" class="article-share-link">共有</a>
+      <a data-url="http://yoursite.com/2018/03/02/论文/" data-id="cje8ruoq40002moulo5ybvx45" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -109,7 +102,7 @@
 <nav id="article-nav">
   
     <a href="/2018/03/02/关于自建博客/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">次の記事</strong>
+      <strong class="article-nav-caption">Neuer</strong>
       <div class="article-nav-title">
         
           (no title)
@@ -137,7 +130,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">アーカイブ</h3>
+    <h3 class="widget-title">Archiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li></ul>
     </div>
@@ -147,7 +140,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">最近の投稿</h3>
+    <h3 class="widget-title">letzter Beitrag</h3>
     <div class="widget">
       <ul>
         
