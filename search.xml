@@ -8,7 +8,7 @@
   <entry>
     <title><![CDATA[LaTeX学习（一）]]></title>
     <url>%2F2018%2F03%2F02%2F2018-03-02-untitled%202%2F</url>
-    <content type="text"><![CDATA[LaTeX是什么 用于编辑和排版的软件，用于生成PDF文档 通过\section和\paragraph等语句，规定了每一句话在文章中所从属的层次，从而极大方便了对各个层次批量处理 四个方面：方便美观的数学公式编辑、不会乱动的退格对齐、非所见即所得 xx]]></content>
+    <content type="text"><![CDATA[LaTeX是什么另： {% post_path slug %} {% post_link slug [转《markdown语法》] %} 用于编辑和排版的软件，用于生成PDF文档 通过\section和\paragraph等语句，规定了每一句话在文章中所从属的层次，从而极大方便了对各个层次批量处理 四个方面：方便美观的数学公式编辑、不会乱动的退格对齐、非所见即所得 xx]]></content>
       <categories>
         <category>生产力</category>
       </categories>
